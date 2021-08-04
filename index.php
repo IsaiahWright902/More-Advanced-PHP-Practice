@@ -1,4 +1,8 @@
 <?php
+// include and require: 
+include('ninjas.php');
+require('ninjas.php');
+echo 'end of php'
 
 ?>
 
@@ -14,6 +18,9 @@
 </head>
 
 <body>
+<?php include('content.php') ?>
+<?php include('content.php') ?>
+<?php include('content.php') ?>
 
 
 
